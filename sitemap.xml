@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-	      <loc>index.html</loc>
+	      <loc>https://wollex.github.io/</loc>
 		  <lastmod>2019-12-07</lastmod>
 		  <changefreq>daily</changefreq>
 		  <priority>1.0</priority>
 	 </url>
 
 	 <url>
-	      <loc>apparel</loc>
+	      <loc>https://wollex.github.io/apparel.html</loc>
 		  <lastmod>2019-12-07</lastmod>
-		  <changefreq>monthly</changefreq>
+		  <changefreq>weekly</changefreq>
 		  <priority>0.6</priority>
 	 </url>
 
    <url>
-      <loc>home+office</loc>
+      <loc>https://wollex.github.io/home+office.html</loc>
     <lastmod>2019-12-07</lastmod>
-    <changefreq>daily</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.6</priority>
  </url>
 
  <url>
-    <loc>vynils+collectibles</loc>
+    <loc>https://wollex.github.io/vynils+collectibles.html</loc>
   <lastmod>2019-12-07</lastmod>
-  <changefreq>daily</changefreq>
+  <changefreq>weekly</changefreq>
   <priority>0.6</priority>
 </url>
 
@@ -32,7 +32,7 @@
 <url>
     <loc>author</loc>
   <lastmod>2019-12-07</lastmod>
-  <changefreq>daily</changefreq>
+  <changefreq>monthly</changefreq>
   <priority>0.1</priority>
 </url>
 </urlset>

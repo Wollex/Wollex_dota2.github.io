@@ -2,12 +2,12 @@
 <channel>
     <item>
         <title>New Apparel has arrived!</title>
-        <link>index.html</link>
+        <link>https://wollex.github.io/index.html#newestArrivals</link>
         <description>New set of Shirts is out, come check it out!</description>
     </item>
     <item>
         <title>A new discount for you!</title>
-        <link>index.html</link>
+        <link>https://wollex.github.io/index.html#sale</link>
         <description>Your favorite figurines are on discount!</description>
     </item>
 </channel>
