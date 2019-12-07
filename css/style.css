@@ -1,0 +1,530 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html{
+scroll-behavior: smooth;
+}
+
+#wrapper {
+  font-family:Roboto, sans-serif;
+  height: 100vh;
+  margin: 0px auto;
+
+
+
+}
+#wrapper h1 {
+  color: #B22222;
+
+}
+
+.position {
+  margin-left: 350px;
+  margin-right: 350px;
+}
+/* Logo and Navigation */
+
+#navigation {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#logo {
+  float: left;
+
+
+}
+
+#logo img {
+  height: 80px;
+  margin-top: 10px;
+}
+
+#menu {
+
+  padding-top: 35px;
+  float: right;
+}
+
+#menu ul {
+  list-style-type: none;
+
+
+
+
+
+}
+#menu ul li {
+  display: inline-block;
+
+
+
+
+
+}
+
+#menu ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  color: #B22222;
+  padding: 12px 25px;
+
+}
+
+#menu ul li a:hover {
+  background-color: #B22222;
+  color: #fff;
+}
+
+
+/* Navigation Dropdown  */
+
+
+.dropdown-storePages {
+  display: none;
+  position: absolute;
+  background-color: #ddd;
+
+
+}
+.dropdown-storePages a {
+  display:block;
+}
+
+.dropdown-store:hover .dropdown-storePages {
+  display:block;
+  margin-top: 12px;
+}
+#menu .dropdown-store:hover .storebtn {
+  background-color: #b22222;
+  color: #7CB9E8;
+}
+#menu li i {
+  margin-left: 5px;
+}
+
+/*Main Banner*/
+
+#mainBanner {
+padding-bottom: 60px;
+
+}
+
+#mainBanner img {
+  width: 100%;
+  height: auto;
+
+
+
+}
+
+
+
+/*Main Page products */
+
+.products {
+  margin-bottom: 60px;
+
+}
+
+.products h1 {
+  text-decoration: none;
+
+  padding-bottom: 25px;
+
+
+}
+
+
+.productimages {
+  display: inline-block;
+  margin-right: 17px;
+  background-color: #ddd;
+
+
+
+}
+
+.productrows {
+  margin-bottom: 10px;
+
+
+}
+.cleaner {
+  clear:both;
+}
+.strikethrough {
+  text-decoration: line-through;
+  font-weight: 100;
+
+
+
+}
+.discountPrice {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+
+
+
+/* Footer */
+
+#footer {
+  height: 170px;
+  background-color:  #B22222;
+
+}
+#footer h2 {
+  color: #7CB9E8;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 15px;
+
+
+}
+#footer a:hover {
+  color: #7CB9E8;
+}
+.footerPosition {
+  margin-top: 15px;
+}
+
+/*Footer Nav */
+
+#footerNav {
+  float:left;
+  margin-right: 100px;
+}
+
+#footerNav a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+
+}
+#footerNavbuttons {
+  margin-top: 5px;
+}
+#footerNavbuttons li {
+  margin-top: 5px;
+}
+
+#footerNav ul {
+  list-style-type: none;
+}
+/* Connect */
+#connect {
+  float:left;
+  margin-right: 100px;
+}
+#connectIcons {
+  margin-top: 5px;
+}
+#connect img {
+  height: 26px;
+
+}
+#connectIcons .rss img {
+  height: 20px;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+
+
+
+/*Footer Contact */
+
+#footerContact {
+  float:right;
+  padding-right: 20px;
+}
+
+#contactIcons {
+  margin-top: 5px;
+
+}
+#footerContact p {
+  color: #7CB9E8;
+  float:right;
+
+}
+#emailIcon p {
+  padding-top: 10px;
+  margin-right: 67px;
+
+}
+#phoneIcon p {
+  padding-top: 10px;
+  margin-right: 168px;
+
+}
+#homeIcon p {
+  padding-top: 10px;
+  margin-left: 15px;
+
+
+}
+
+#footerContact img {
+  height: 26px;
+  margin-top:4px;
+
+}
+.contactText{
+visibility: hidden;
+opacity: 0;
+transition: visibility 0s, opacity 0.5s linear;
+}
+.contactHoudini:hover + a > .contactText{
+visibility: visible;
+opacity: 1;
+}
+
+
+
+
+
+/* Store  */
+
+#store {
+  padding-top: 100px;
+}
+
+.storeimages {
+    display: inline-block;
+    margin-right: 17px;
+    margin-bottom: 17px;
+    background-color: #ddd;
+}
+
+.imagebutton {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.imagedropup {
+  position: relative;
+  display: inline-block;
+}
+
+.imageDropupPrice {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  bottom: 50px;
+  z-index: 1;
+}
+
+.imageDropupPrice a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.imageDropupPrice a:hover {background-color: #ccc}
+
+.imageDropup:hover .imageDropupPrice {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  background-color: #2980B9;
+}
+
+
+
+
+
+/* Product layout*/
+
+.descriptionPosition{
+    position: relative;
+    }
+
+.img_description_layout{
+  position: absolute;
+  bottom: 0;left: 0;right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 20px;
+  visibility:hidden;
+  opacity: 0;
+
+}
+
+.img_description{
+  transition: .5s;
+  font-size: 25px ;
+  transform: translateY(-30px);
+  color: #7CB9E8;
+  margin-left: 10px;
+
+}
+.img_price {
+  transition: .5s;
+  font-size: 16px ;
+  transform: translateY(-30px);
+  color: white;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+
+}
+.descriptionPosition:hover .img_description_layout{
+  visibility: visible;
+  opacity: 1;
+}
+.descriptionPosition:hover .img_description{
+  transform: translateY(-5px);
+
+}
+.descriptionPosition:hover .img_price {
+  transform: translateY(-5px);
+
+}
+
+/*About Us */
+
+#aboutUs {
+  padding-top: 100px;
+}
+
+.aboutusText {
+  float:left;
+  text-align: justify;
+  width: 30%;
+
+}
+.aboutusText h1 {
+  margin-bottom: 20px;
+}
+
+.parallax {
+  background-image: url("../images/parallax_2.jpg");
+  float: right;
+  width: 65%;
+  height: 300px;
+  margin-right: 20px;
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border-left: 20px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Contact Form */
+
+#contact {
+  padding: 200px 0px;
+
+
+
+}
+
+#contact h1 {
+  margin-bottom: 20px;
+  text-align: center;
+
+
+}
+
+
+.contactForm {
+  border-radius: 5px;
+  background-color: #ddd;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto;
+
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 14px;
+  resize: none;
+}
+
+input[type=submit] {
+  background-color: #b22222;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #7CB9E8;
+  color: #b22222;
+}
+
+
+
+#subject {
+  height: 200px;
+
+}
+
+
+/*  Author  */
+
+#author {
+  padding-top: 100px;
+}
+
+.authorImg {
+  padding-top: 20px;
+  padding-bottom: 100px;
+
+  float: left;
+
+}
+
+.authorText {
+  float: left;
+  text-align: justify;
+  width: 500px;
+  padding-top: 20px;
+  padding-left: 20px;
+
+
+}
+
+
+
+
+
+
+
+
+}
